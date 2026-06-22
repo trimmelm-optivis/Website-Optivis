@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" fill="none" role="img" aria-label="CAD-Planung">
+  <defs>
+    <linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0c1426"/><stop offset="1" stop-color="#0a0f1c"/></linearGradient>
+    <linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+    <radialGradient id="g" cx="0.5" cy="0.1" r="0.8"><stop offset="0" stop-color="#3b82f6" stop-opacity="0.22"/><stop offset="1" stop-color="#3b82f6" stop-opacity="0"/></radialGradient>
+    <pattern id="p" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/></pattern>
+  </defs>
+  <rect width="480" height="300" fill="url(#b)"/><rect width="480" height="300" fill="url(#p)"/><rect width="480" height="300" fill="url(#g)"/>
+
+  <!-- Objekt -->
+  <path d="M150 110 H300 V160 H260 V200 H150 Z" fill="#0e1a2e" stroke="url(#a)" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Maßlinien -->
+  <g stroke="#22d3ee" stroke-opacity="0.7" stroke-width="1.6">
+    <path d="M150 226 H300"/><path d="M150 220 V232"/><path d="M300 220 V232"/>
+    <path d="M120 110 V200"/><path d="M114 110 H126"/><path d="M114 200 H126"/>
+  </g>
+
+  <!-- Knotenpunkte -->
+  <g fill="#3b82f6"><circle cx="150" cy="110" r="4"/><circle cx="300" cy="110" r="4"/><circle cx="150" cy="200" r="4"/></g>
+
+  <!-- Fadenkreuz / Cursor -->
+  <g stroke="url(#a)" stroke-width="2.5" stroke-linecap="round">
+    <path d="M330 150 H368"/><path d="M349 131 V169"/>
+  </g>
+  <circle cx="349" cy="150" r="10" fill="none" stroke="url(#a)" stroke-width="2.5"/>
+</svg>

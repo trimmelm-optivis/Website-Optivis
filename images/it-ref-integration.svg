@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" fill="none" role="img" aria-label="Integration">
+  <defs>
+    <linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0c1426"/><stop offset="1" stop-color="#0a0f1c"/></linearGradient>
+    <linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#2dd4bf"/></linearGradient>
+    <radialGradient id="g" cx="0.5" cy="0.1" r="0.8"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.22"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+    <pattern id="p" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/></pattern>
+  </defs>
+  <rect width="480" height="300" fill="url(#b)"/><rect width="480" height="300" fill="url(#p)"/><rect width="480" height="300" fill="url(#g)"/>
+
+  <!-- zwei Systeme -->
+  <g fill="#0e1a2e" stroke="url(#a)" stroke-width="2.5">
+    <rect x="60" y="106" width="92" height="88" rx="16"/>
+    <rect x="328" y="106" width="92" height="88" rx="16"/>
+  </g>
+  <g fill="#22d3ee" fill-opacity="0.8">
+    <circle cx="106" cy="138" r="6"/><rect x="84" y="158" width="44" height="6" rx="3"/><rect x="92" y="172" width="28" height="6" rx="3"/>
+    <circle cx="374" cy="138" r="6"/><rect x="352" y="158" width="44" height="6" rx="3"/><rect x="360" y="172" width="28" height="6" rx="3"/>
+  </g>
+
+  <!-- Verbindung -->
+  <path d="M152 150 H196" stroke="#22d3ee" stroke-opacity="0.5" stroke-width="3" stroke-linecap="round"/>
+  <path d="M284 150 H328" stroke="#22d3ee" stroke-opacity="0.5" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Link-Glyph -->
+  <g stroke="url(#a)" stroke-width="4" fill="none" stroke-linecap="round">
+    <rect x="198" y="134" width="46" height="32" rx="16"/>
+    <rect x="236" y="134" width="46" height="32" rx="16"/>
+  </g>
+</svg>

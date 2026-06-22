@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" fill="none" role="img" aria-label="Prozess">
+  <defs>
+    <linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0c1426"/><stop offset="1" stop-color="#0a0f1c"/></linearGradient>
+    <linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#2dd4bf"/></linearGradient>
+    <radialGradient id="g" cx="0.5" cy="0.1" r="0.8"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.22"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+    <pattern id="p" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/></pattern>
+    <marker id="ah" markerWidth="9" markerHeight="9" refX="6" refY="4.5" orient="auto"><path d="M1 1 L7 4.5 L1 8" stroke="#22d3ee" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></marker>
+  </defs>
+  <rect width="480" height="300" fill="url(#b)"/><rect width="480" height="300" fill="url(#p)"/><rect width="480" height="300" fill="url(#g)"/>
+
+  <g stroke="#22d3ee" stroke-opacity="0.55" stroke-width="2.5" fill="none">
+    <path d="M126 150 L186 150" marker-end="url(#ah)"/>
+    <path d="M246 150 L306 150" marker-end="url(#ah)"/>
+  </g>
+
+  <g fill="#0e1a2e" stroke="url(#a)" stroke-width="3">
+    <circle cx="104" cy="150" r="22"/><circle cx="222" cy="150" r="22"/>
+  </g>
+  <g fill="#22d3ee"><circle cx="104" cy="150" r="6"/><circle cx="222" cy="150" r="6"/></g>
+
+  <!-- Abschluss: Haken -->
+  <circle cx="346" cy="150" r="30" fill="url(#a)"/>
+  <path d="M330 150 l11 12 l21 -25" stroke="#06121f" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

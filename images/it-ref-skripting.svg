@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" fill="none" role="img" aria-label="Skripting">
+  <defs>
+    <linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0c1426"/><stop offset="1" stop-color="#0a0f1c"/></linearGradient>
+    <linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#2dd4bf"/></linearGradient>
+    <radialGradient id="g" cx="0.5" cy="0.1" r="0.8"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.22"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+    <pattern id="p" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/></pattern>
+  </defs>
+  <rect width="480" height="300" fill="url(#b)"/><rect width="480" height="300" fill="url(#p)"/><rect width="480" height="300" fill="url(#g)"/>
+
+  <!-- Code-Fenster -->
+  <rect x="96" y="74" width="288" height="152" rx="14" fill="#0e1a2e" stroke="url(#a)" stroke-width="2.5"/>
+  <path d="M96 104 H384" stroke="#22d3ee" stroke-opacity="0.25" stroke-width="2"/>
+  <g fill="#22d3ee"><circle cx="116" cy="89" r="4"/><circle cx="130" cy="89" r="4"/><circle cx="144" cy="89" r="4"/></g>
+
+  <!-- </> -->
+  <g stroke="url(#a)" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M176 138 L156 162 L176 186"/>
+    <path d="M304 138 L324 162 L304 186"/>
+    <path d="M268 132 L212 192"/>
+  </g>
+</svg>
